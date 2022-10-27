@@ -1,0 +1,2 @@
+- wie sieht ein guter docstring für die Methodendefinition aus
+- slicing

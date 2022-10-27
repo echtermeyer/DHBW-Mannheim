@@ -1,0 +1,4 @@
+majority element
+array element removal
+delete node in linked list
+binary tree level order traversal

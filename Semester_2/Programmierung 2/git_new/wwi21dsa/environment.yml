@@ -1,0 +1,20 @@
+name: dhbw-2022
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - xlsxwriter
+  - openpyxl
+  - statsmodels
+  - scikit-learn
+  - pandas=1.4
+  - pip=22
+  - requests=2.23
+  - seaborn
+  - xlrd
+  - zlib
+  - jupyterlab=3
+  - pytest
+  - hypothesis
+  - jupyterlab-git

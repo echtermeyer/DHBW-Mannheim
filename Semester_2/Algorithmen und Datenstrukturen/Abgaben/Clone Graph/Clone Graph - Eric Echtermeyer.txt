@@ -1,0 +1,32 @@
+Echtermeyer, Eric, 6373947
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val = 0, neighbors = None):
+        self.val = val
+        self.neighbors = neighbors if neighbors is not None else []
+"""
+
+class Solution:
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        """
+        Laufzeit: O(n)
+        Speicher: O(n)
+        """
+        storage = {}
+        
+        def depthfirstsearch(node):
+            if not node:
+                return
+            else:
+                n_c = Node(node.val, [])
+                storage[node] = n_c
+                for neighb in node.neighbors:
+                    if neighb in storage:
+                        n_c.neighbors.append(storage[neighb])
+                    else:   
+                        n_c.neighbors.append(depthfirstsearch(neighb))
+                return n_c
+        
+        return depthfirstsearch(node)

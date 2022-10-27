@@ -1,0 +1,26 @@
+Echtermeyer, Eric, 6373947
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        """
+        Laufzeit: n + n//2 --> O(n)
+        Speicher: 2x int   --> O(1)        
+        """
+        length = 1
+        
+        head_counter = head.next
+        while head_counter:
+            length += 1
+            head_counter = head_counter.next
+            
+        mid = length // 2
+        for idx in range(mid):
+            head = head.next
+            
+        return head
+            

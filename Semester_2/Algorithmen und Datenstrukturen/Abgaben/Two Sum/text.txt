@@ -1,0 +1,8 @@
+- 4, text ändern
+- 6/7 einheitlich
+- 11 definition
+- 31 quellen
+
+Epics: Anforderungskategorien, sehr grob
+User Story: kleinere, detailliertere Anforderung
+Task: Arbeitsschritte der US, z.B. Umsetzung der Datenstruktur auf dem Datenserver
