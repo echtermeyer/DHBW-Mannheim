@@ -1,0 +1,5 @@
+i = 10
+while i > 4:
+    print(i)
+    i -= 1
+

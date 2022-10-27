@@ -1,0 +1,11 @@
+Bedienungsanleitung des Automaten:
+
+Sie bekommen zu Beginn die beiden erhältlichen Produkte und die jeweiligen Preise zu diesen angezeigt. Wählen Sie die Nummer des jeweiligen Produktes durch eine Eingabe ein.
+Falls Sie ein falsches Produkt ausgewählt haben sollten oder auch Ihre Eingabe ungültig war, wiederholt sich dieser Prozess bis zur gültigen Eingabe.
+
+Nun beginnt der Bezahlprozess. Dazu geben Sie den Betrag ein, mit welchem Sie bezahlen wollen. Dieser muss selbstverständlich mindestens so groß wie der Preis des Produktes sein. Sollte es zu einer falschen Eingabe kommen, wiederholt sich dieser Schritt.
+
+Anschließend erfahren Sie, wie viel Rückgeld sie bekommen. Da der Automat leider zur Zeit nur Kupfermünzen lagern kann, erhalten Sie nur diese. Damit Sie möglichst wenig schleppen müssen, erhalten Sie automatisch die Kombination aus 1, 2 und 5 Cent Münzen, welche die geringste Anzahl aufweist.
+
+Am Ende bedankt sich der Automat noch repräsentativ für unser gesamtes Unternehmen bei Ihnen für Ihren erfolgreichen Einkauf.
+Vielen Dank!
